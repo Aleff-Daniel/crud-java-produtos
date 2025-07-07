@@ -65,6 +65,30 @@ java -jar crud-produtos.jar
 Isso irá iniciar o sistema via console com o menu interativo.
 
 
+## Executar com script `.bat` (Windows)
+
+
+Você pode automatizar a execução do projeto com um arquivo `.bat`, útil para quem utiliza o sistema operacional Windows:
+
+1. Verifique se o arquivo `crud-produtos.jar` está na mesma pasta que o script.  
+
+
+2. Execute o arquivo `executar.bat` com um duplo clique ou pelo terminal.
+
+
+Conteúdo do arquivo `executar.bat`:
+
+
+```
+@echo off
+java -jar crud-produtos.jar
+pause
+```
+
+
+O comando `pause` serve para manter a janela do terminal aberta após a execução do programa, facilitando a leitura da saída exibida.
+
+
 ## Estrutura do projeto
 
 
