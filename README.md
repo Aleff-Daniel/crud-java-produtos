@@ -47,6 +47,24 @@ java Main
 ```
 
 
+## Executar com arquivo .jar
+
+
+Se preferir rodar o projeto usando o arquivo `.jar`, siga os passos abaixo:
+
+
+1. Certifique-se que o Java está instalado na sua máquina.  
+2. No terminal, execute o comando:
+
+
+```
+java -jar crud-produtos.jar
+```
+
+
+Isso irá iniciar o sistema via console com o menu interativo.
+
+
 ## Estrutura do projeto
 
 
